@@ -1,0 +1,57 @@
+.container {
+  width: 450px;
+  height: 500px;
+  background-color: #ffffff;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.15);
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.img1 {
+  width: 450px;
+  height: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-size: contain;
+  overflow: hidden;
+}
+.heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-left: 30px;
+  padding-right: 50px;
+}
+.description {
+  font-weight: bold;
+  margin-left: 30px;
+  color: #677489;
+  font-size: 18px;
+  padding-right: 60px;
+  margin-top: 0;
+}
+.foot {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.img2 {
+  width: 40px;
+  border-radius: 40px;
+}
+.name {
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-bottom: 0px;
+  padding-right: 260px;
+}
+.role {
+  margin-bottom: 4px;
+  margin-top: 0;
+}
